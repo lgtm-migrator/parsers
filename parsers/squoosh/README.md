@@ -85,16 +85,24 @@ Please keep in mind that this parser generates files. This is why you should alw
 ### Before / After
 
 #### Input
+```json
+{
+  "type": "image",
+  "name": "squishsquishbish.avif",
+  "value": {
+    "url": "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b5/b311/257c650341b701d691be78f247b9cf5e"
+  }
+}
+```
 
 #### Output
 ```json
 {
   "type": "image",
-  "name": "logo.avif",
+  "name": "squishsquishbish.avif",
   "value": {
-    "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 40 40\"><path d=\"M36.667 20H30l-5 15L15 5l-5 15H3.333\" stroke-width=\"3.333\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+    "url": "https://s3-us-west-2.amazonaws.com/specify-assets/img/5432/b311/257c650341b701d691be78f247b9cf5e"
   }
-  // …
 }
 ```
 
