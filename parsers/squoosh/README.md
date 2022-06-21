@@ -1,7 +1,7 @@
 # Squoosh — Image Optimizer
 ## Description
 
-This parser helps you optimize your images using [Squoosh](https://github.com/GoogleChromeLabs/squoosh).    
+This parser helps you optimize and convert your images using [Squoosh](https://github.com/GoogleChromeLabs/squoosh).    
 
 Learn more about how to configure Specify in the API documentation: [https://specifyapp.com/developers](https://specifyapp.com/developers).
 
