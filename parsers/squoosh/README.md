@@ -87,8 +87,8 @@ Please keep in mind that this parser generates files. This is why you should alw
 #### Input
 ```json
 {
-  "type": "image",
-  "name": "squishsquishbish.avif",
+  "type": "bitmap",
+  "name": "squishsquishbish",
   "value": {
     "url": "https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/99b5/b311/257c650341b701d691be78f247b9cf5e"
   }
@@ -97,12 +97,25 @@ Please keep in mind that this parser generates files. This is why you should alw
 
 #### Output
 ```json
-{
-  "type": "image",
-  "name": "squishsquishbish.avif",
-  "value": {
-    "url": "https://s3-us-west-2.amazonaws.com/specify-assets/img/5432/b311/257c650341b701d691be78f247b9cf5e"
+[
+  {
+    "name": "squishsquishbish.avif",
+    "value": {
+      "url": "https://s3-us-west-2.amazonaws.com/specify-assets/img/5432/b311/257c650341b701d691be78f247b9cf5e"
+    }
+  },
+  {
+    "name": "squishsquishbish.jpg",
+    "value": {
+      "url": "https://s3-us-west-2.amazonaws.com/specify-assets/img/5432/b311/257c650341b701d691be78f247b9cf5e"
+    }
+  },
+  {
+    "name": "squishsquishbish.webp",
+    "value": {
+      "url": "https://s3-us-west-2.amazonaws.com/specify-assets/img/5432/b311/257c650341b701d691be78f247b9cf5e"
+    }
   }
-}
+]
 ```
 
