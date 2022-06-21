@@ -10,7 +10,25 @@ Learn more about how to configure Specify in the API documentation: [https://spe
 ```ts
 interface parser {
   name: 'squoosh';
-  options?: {};
+  options?: 
+  {
+      formats?: Array<'png' | 'jpg' | 'webp' | 'avif' | 'wp2'>;
+      compression?: {
+        mozjpeg?: {
+          quality: number;
+        };
+        webp?: {
+          quality: number;
+        };
+        avif?: {
+          quality: number;
+        };
+        wp2?: {
+          quality: number;
+        };
+      };
+    }
+  | undefined;
 }
 ```
 
