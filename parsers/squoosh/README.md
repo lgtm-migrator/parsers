@@ -79,9 +79,6 @@ Please keep in mind that this parser generates files. This is why you should alw
 ]
 ```
 
-## Types
-ℹ️ Please be aware that, depending on the order you use parsers, their input and output types have to match.
-
 ## Usage
 ### Config
 ```json
