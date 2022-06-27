@@ -1,6 +1,8 @@
 import Token, { TokenInterface } from './Token';
 import { TokensType } from './index';
 
+export type BitmapFormat = 'png' | 'jpg' | 'webp' | 'avif' | 'wp2';
+
 export interface BitmapValue {
   url: string;
   format?: string;

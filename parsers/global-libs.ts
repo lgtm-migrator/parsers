@@ -2,7 +2,7 @@ import _ from 'lodash';
 import tinycolor from 'tinycolor2';
 import SVGO from 'svgo';
 import Mustache from 'mustache';
-import { AllowedFormat, PartialRecord } from '../types';
+import { AllowedFormat, BitmapFormat, PartialRecord } from '../types';
 import { MustacheStatic } from '../types/libs/mustache';
 
 declare module 'lodash' {
