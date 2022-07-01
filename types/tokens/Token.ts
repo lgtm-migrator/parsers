@@ -51,7 +51,6 @@ export abstract class Token implements IToken {
     this.source = element?.source || undefined;
     this.sourceId = element?.sourceId || element?.source?.id || undefined;
     this.id = element.id!;
-    // if (element?.id) this.id = element.id;
   }
 
   computeSignature(value: string) {

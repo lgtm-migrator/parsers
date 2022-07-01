@@ -5,7 +5,7 @@ export type BitmapFormat = 'png' | 'jpg' | 'webp' | 'avif' | 'wp2';
 
 export interface BitmapValue {
   url: string;
-  format?: string;
+  format: BitmapFormat;
   dimension?: number;
   fileName?: string;
 }
